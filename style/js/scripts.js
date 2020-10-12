@@ -1323,11 +1323,110 @@ var bott3Selected = document.querySelector('#bott3Selected');
 }
 
 /*-----------------------------------------------------------------------------------*/
-	/*	INSTAGRAM
+	/*	MAPPA
 /*-----------------------------------------------------------------------------------*/
+function c_all() {
 
+ // --- Schermate iphone ---
+var all = document.querySelector('#all');
+var africa = document.querySelector('#africa');
+var	america = document.querySelector('#america');
+var	asia = document.querySelector('#asia');
+var	europa = document.querySelector('#europa');
+var	oceania = document.querySelector('#oceania');
 
+  all.style.display = 'block';
+	africa.style.display = 'none';
+	america.style.display = 'none';
+	asia.style.display = 'none';
+	europa.style.display = 'none';
+	oceania.style.display = 'none';
+}
+function c_africa() {
 
+ // --- Schermate iphone ---
+var all = document.querySelector('#all');
+var africa = document.querySelector('#africa');
+var	america = document.querySelector('#america');
+var	asia = document.querySelector('#asia');
+var	europa = document.querySelector('#europa');
+var	oceania = document.querySelector('#oceania');
+
+  all.style.display = 'none';
+	africa.style.display = 'block';
+	america.style.display = 'none';
+	asia.style.display = 'none';
+	europa.style.display = 'none';
+	oceania.style.display = 'none';
+}
+	function c_america() {
+
+	 // --- Schermate iphone ---
+	var all = document.querySelector('#all');
+	var africa = document.querySelector('#africa');
+	var	america = document.querySelector('#america');
+	var	asia = document.querySelector('#asia');
+	var	europa = document.querySelector('#europa');
+	var	oceania = document.querySelector('#oceania');
+
+	  all.style.display = 'none';
+		africa.style.display = 'none';
+		america.style.display = 'block';
+		asia.style.display = 'none';
+		europa.style.display = 'none';
+		oceania.style.display = 'none';
+}
+		function c_asia() {
+
+		 // --- Schermate iphone ---
+		var all = document.querySelector('#all');
+		var africa = document.querySelector('#africa');
+		var	america = document.querySelector('#america');
+		var	asia = document.querySelector('#asia');
+		var	europa = document.querySelector('#europa');
+		var	oceania = document.querySelector('#oceania');
+
+			all.style.display = 'none';
+			africa.style.display = 'none';
+			america.style.display = 'none';
+			asia.style.display = 'block';
+			europa.style.display = 'none';
+			oceania.style.display = 'none';
+}
+			function c_europa() {
+
+			 // --- Schermate iphone ---
+			var all = document.querySelector('#all');
+			var africa = document.querySelector('#africa');
+			var	america = document.querySelector('#america');
+			var	asia = document.querySelector('#asia');
+			var	europa = document.querySelector('#europa');
+			var	oceania = document.querySelector('#oceania');
+
+				all.style.display = 'none';
+				africa.style.display = 'none';
+				america.style.display = 'none';
+				asia.style.display = 'none';
+				europa.style.display = 'block';
+				oceania.style.display = 'none';
+}
+				function c_oceania() {
+
+				 // --- Schermate iphone ---
+				var all = document.querySelector('#all');
+				var africa = document.querySelector('#africa');
+				var	america = document.querySelector('#america');
+				var	asia = document.querySelector('#asia');
+				var	europa = document.querySelector('#europa');
+				var	oceania = document.querySelector('#oceania');
+
+					all.style.display = 'none';
+					africa.style.display = 'none';
+					america.style.display = 'none';
+					asia.style.display = 'none';
+					europa.style.display = 'none';
+					oceania.style.display = 'block';
+					}
 /*-----------------------------------------------------------------------------------*/
 	/*	BTN CONTINENTI
 /*-----------------------------------------------------------------------------------*/

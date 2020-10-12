@@ -724,6 +724,40 @@ canvas {
 /*-----------------------------------------------------------------------------------*/
 /*	MAP
 /*-----------------------------------------------------------------------------------*/
+
+#all {
+    width: 100%;
+    display: block;
+}
+
+#africa {
+    width: 100%;
+    display: none;
+}
+
+#america {
+    width: 100%;
+    display: none;
+}
+
+#asia {
+    width: 100%;
+    display: none;
+}
+
+#europa {
+    width: 100%;
+    display: none;
+}
+
+#oceania {
+    width: 100%;
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MAP
+/*-----------------------------------------------------------------------------------*/
 .marker {
   background-image: url('style/images/art/Map-pin.png');
   background-size: cover;
@@ -753,8 +787,8 @@ canvas {
 
 
 
-#staticbox{
-  height: 700px;
+#staticbox {
+
 }
 
 #base_map{
@@ -766,14 +800,15 @@ canvas {
   color: #82ACBC;
 }
 
-#titolo_main_com{
-  font-family: "Scto Grotesk B";
-  font-weight: 900;
-  position: absolute;
-  text-align: center;
-  left: 18%;
-  top: 10%;
-  z-index: 100;
+#titolo_main_com {
+    margin-top: 4%;
+    font-family: "Scto Grotesk B";
+    font-weight: 900;
+    position: absolute;
+    text-align: center;
+    left: 22%;
+    top: 16%;
+    z-index: 100;
 }
 
 #map-container{
@@ -3786,7 +3821,7 @@ font-weight: 300;
 
 #mappa {
   width: 80%;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 
 a:hover {
